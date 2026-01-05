@@ -183,3 +183,21 @@ img {
     transform: translateY(-15px);
 } 
 
+/* footer */
+.footer .social a{
+    margin: 0 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p, h1{
+    margin: 0 10px;
+}
+

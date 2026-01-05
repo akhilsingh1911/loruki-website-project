@@ -54,6 +54,15 @@
     color: #fff;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a{
+    color: #fff;
+}
+
 .bg-light,
 .btn-light{
     background-color: var(--light-color);
@@ -105,6 +114,7 @@
 .grid-3{
     grid-template-columns: repeat(3, 1fr);
 }
+
 
 /* margin */
 .my-1{
