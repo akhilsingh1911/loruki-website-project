@@ -181,7 +181,31 @@ img {
 
 .languages .card:hover{
     transform: translateY(-15px);
-} 
+}
+
+/* features */
+.features-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
+
+.features-sub-head img{
+    width: 300px;
+    justify-self: flex-end;
+}
+
+.features-main .card > i{
+    margin-right: 20px;
+}
+
+.features-main .grid{
+    padding: 30px;
+}
+
+.features-main .grid > *:first-child{
+    grid-column: 1 / span 3;
+}
+
 
 /* footer */
 .footer .social a{
@@ -228,6 +252,7 @@ img {
     .cli .grid > *:first-child{
     grid-column: 1;
     grid-row: 1;
+    }
 }
 
 /* mobile */
@@ -244,5 +269,4 @@ img {
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
     }
- 
- }
+}
